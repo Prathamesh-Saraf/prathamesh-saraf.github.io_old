@@ -1,23 +1,22 @@
 <!DOCTYPE HTML>
 <html>
+	
 	<head>
 		<title>Prathamesh Saraf: Projects</title>
 		<meta charset="utf-8" />
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css" href=href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"/>
 		<link rel="shortcut icon" type="image/x-icon" href="images/logo.jpg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet"
-              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              
+			  integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
               crossorigin="anonymous">
-        <link rel="stylesheet"
-              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body class="is-preload">
 
-		<!-- Nav -->
+		<!-- Nav href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" -->
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="/index.html#home">Home</a></li>
@@ -31,34 +30,34 @@
 		<!-- Spot -->
 		<article id="Spot" class="wrapper style2">
 			<div class="container">
-				<img src="images/Spot.jpg" alt=""/>
-				<p>Write project details here</p>
+				
 			</div>
 		</article>
-		<h2> Related Publications </h2>
+		<h3> Related Publications </h3>
 		<article>
 		<li style="color:rgb(95, 95, 95);text-align:justify;">
 			
 			Terrain Adaptive Gait Transitioning for a Quadruped Robot using Model Predictive Control"
 			<a href="https://arxiv.org/abs/2106.03307" target="_blank">[Paper]</a>
 		</li>
-		<h2> People </h2>
+		<p></p>
+		<h3> People </h3>
 		<section class="people project-people">
 			<div class="person person-with-image row align-items-center">
 				<div class="row">
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile"	src="images/pratha.jpg" width="75" height="75" />
-						<h6 class="person-name">Prathamesh Saraf</h6>
+						<img class="rounded-circle profile"	src="images/pratha.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Prathamesh Saraf</p>
 					</div>
 					
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile" src="images/AbhishekSarkar.jpg" width="75" height="75" />
-						<h6 class="person-name">Prof. Abhishek Sarkar</h6>
+						<img class="rounded-circle profile" src="images/AbhishekSarkar.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Prof. Abhishek Sarkar</p>
 					</div>
 					
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile" src="images/Arshad Javed.jpeg" width="75" height="75" />
-						<h6 class="person-name">Prof. Arshad Javed</h6>
+						<img class="rounded-circle profile" src="images/arshad.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Prof. Arshad Javed</p>
 					</div>
 						
 				</div>
@@ -70,78 +69,134 @@
 		<!-- Manipulator -->
 		<article id="Manipulator" class="wrapper style1">
 			<div class="container">
-				<img src="images/robotarm.jpg" alt=""/>
-				<p>The project focuses on control of an articulated robotic manipulator.</p>
-					<li>Formulated the Lagrangian Euler dynamics and kinematics for a TRR manipulator.
-					● Implemented and evaluated the manipulators performance for the Classical, Optimal, and
-					Impedance controller in multiple operating conditions.
-					● Simulated the controllers on the manipulator in a ROS Gazebo environment
+				
+				<header>
+					<h1>Spherical Articulated Manipulator</h1>
+				</header>
+				<div> 
+					<p style="color:rgb(95, 95, 95);text-align:justify;">The project focuses on control of an articulated robotic manipulator.</p>
+					<li style="color:rgb(95, 95, 95);text-align:justify;">Formulated the Lagrangian Euler dynamics and kinematics for a TRR manipulator.</li>
+					<li style="color:rgb(95, 95, 95);text-align:justify;">Implemented and evaluated the manipulators performance for the Classical, Optimal, and Impedance controller in multiple operating conditions.</li>
+					<li style="color:rgb(95, 95, 95);text-align:justify;">Simulated the controllers on the manipulator in a ROS Gazebo environment.</li>
+				</div>	
+				
+					
+					
+					<div class="row">
+						<div class="col-3 col-3-large col-12-medium">
+						</div>
+						<div class="col-3 col-3-large col-12-medium">
+							<p><strong>Without Disturbance</strong></p>
+						</div>
+						<div class="col-3 col-3-large col-12-medium">
+							<p><strong>With Disturbance</strong></p>
+						</div>
+						<div class="col-3 col-3-large col-12-medium">
+						</div>
+						<div class="col-3 col-3-large col-12-medium">
+							<p><strong>PID Control:</strong></p>
+						</div>
+						<div class="col-3 col-3-large col-12-medium">
+							<img src="images/Videos/arm_PID.gif" width="250" height="200" alt="">
+						</div>
+						<div class="col-3 col-3-large col-12-medium">
+							<img src="images/Videos/PID_force.gif" width="250" height="200" alt="">
+						</div>
+						<div class="col-3 col-3-large col-12-medium">
+						</div>
+						<div class="col-3 col-3-large col-12-medium">
+							<p><strong>Impedance Control:</strong></p>
+						</div>
+						<div class="col-3 col-3-large col-12-medium">
+							<img src="images/Videos/arm_imp.gif" width="250" height="200" alt="">
+						</div>
+						<div class="col-3 col-3-large col-12-medium">
+							<img src="images/Videos/Imp_force.gif" width="250" height="200" alt="">
+						</div>
+						<div class="col-3 col-3-large col-12-medium">
+						</div>
+						
+				</div>
 			</div>
 		</article>
-		<h2> Related Publications </h2>
+		<h3> Related Publications </h3>
 		<article>
 		<li style="color:rgb(95, 95, 95);text-align:justify;">
 			
 				“Modeling and Simulation of a Point to Point Spherical Articulated Manipulator Using Optimal Control"
 			<a href="https://ieeexplore.ieee.org/document/9376496" target="_blank">[Paper]</a>
 		</li>
-		<h2> People </h2>
+		<p></p>
+		<h3> People </h3>
 		
 		<section class="people project-people">
 			<div class="person person-with-image row align-items-center">
 				<div class="row">
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile"	src="images/pratha.jpg" width="75" height="75" />
-						<h6 class="person-name">Prathamesh Saraf</h6>
+						<img class="rounded-circle profile"	src="images/pratha.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Prathamesh Saraf</p>
 					</div>
 					
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile" src="images/yash.jpeg" width="75" height="75" />
-						<h6 class="person-name">Yash Jangir</h6>
+						<img class="rounded-circle profile" src="images/yash.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Yash Jangir</p>
 					</div>
 
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile" src="images/ponnalagu.jpeg" width="75" height="75" />
-						<h6 class="person-name">Prof. R.N.Ponnalagu</h6>
+						<img class="rounded-circle profile" src="images/ponnalagu.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Prof. R.N.Ponnalagu</p>
 					</div>
 						
 				</div>
 			</div>
 		</section>
 	
-
 		<!-- Quadrotor -->
 		<article id="Quadrotor" class="wrapper style2">
 			<div class="container">
-				<img src="images/quadrotor.jpg" alt=""/>
-				<p>Write project details here</p>
+				<header>
+					<h1>Dynamic Optimal Controller for a Quadrotor</h1>
+				</header>
+				<div class="row">
+					<div class="col-4 col-5-large col-12-medium">
+						<span class="image fit"><img src="images/quadrotor.jpg" alt=""/></span>
+					</div>
+					<div class="col-8 col-7-large col-12-medium">
+						<p style="color:rgb(95, 95, 95);text-align:justify;">The project focuses on stability analysis of a Quadrotor for varied flying conditions.</p>
+						<li style="color:rgb(95, 95, 95);text-align:justify;">Formulated the Quadrotor dynamics and modelled the mathematical state space equations.</li>
+						<li style="color:rgb(95, 95, 95);text-align:justify;">Designed, tuned and simulated the PID controller & LQR optimal for the Quadrotor.</li>
+						<li style="color:rgb(95, 95, 95);text-align:justify;">Validated the controller responses for various flying and disturbance scenarios and presented
+							comparative results for the two controllers.</li>
+					</div>
+				</div>
 			</div>
 		</article>
-		<h2> Related Publications </h2>
+		<h3> Related Publications </h3>
 		<article>
 		<li style="color:rgb(95, 95, 95);text-align:justify;">
 			
 			“A Comparative Study Between a Classical and Optimal Controller for a Quadrotor"
 			<a href="hhttps://ieeexplore.ieee.org/document/9342485" target="_blank">[Paper]</a>
 		</li>
-		<h2> People </h2>
+		<p></p>
+		<h3> People </h3>
 		
 		<section class="people project-people">
 			<div class="person person-with-image row align-items-center">
 				<div class="row">
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile"	src="images/pratha.jpg" width="75" height="75" />
-						<h6 class="person-name">Prathamesh Saraf</h6>
-					</div>
-				
-					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile" src="images/wearable.jpg" width="75" height="75" />
-						<h6 class="person-name">Manan Gupta</h6>
+						<img class="rounded-circle profile"	src="images/pratha.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Prathamesh Saraf</p>
 					</div>
 					
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile" src="images/alivelu.jpeg" width="75" height="75" />
-						<h6 class="person-name">Prof. Alivelu Parimi</h6>
+						<img class="rounded-circle profile" src="images/manan.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Manan Gupta</p>
+					</div>
+					
+					<div class="col-4 col-3 col-12-large">
+						<img class="rounded-circle profile" src="images/alivelu.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Prof. Alivelu Parimi</p>
 					</div>
 					
 				</div>
@@ -177,104 +232,155 @@
 				
 			</div>
 		</article>
-		<h2> Related Publications </h2>
+		<h3> Related Publications </h3>
 		<article>
 		<li style="color:rgb(95, 95, 95);text-align:justify;">
 			
 			“A Convolutional Neural Network Approach Towards Self-Driving Cars"
 			<a href="https://ieeexplore.ieee.org/document/9030307" target="_blank">[Paper]</a>
 		</li>
-		<h2> People </h2>
+		<p></p>
+		<h3> People </h3>
 		<section class="people project-people">
 			<div class="person person-with-image row align-items-center">
 				<div class="row">
-					<div class="col-6 col-3 col-12-medium">
-						<img class="rounded-circle profile"	src="images/pratha.jpg" width="75" height="75" />
-						<h6 class="person-name">Prathamesh Saraf</h6>
+					<div class="col-4 col-3 col-12-large">
+						<img class="rounded-circle profile"	src="images/pratha.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Prathamesh Saraf</p>
 					</div>
-					
-					<div class="col-6 col-3 col-12-medium">
-						<img class="rounded-circle profile" src="images/akhil.jpg" width="75" height="75" />
-						<h6 class="person-name">Akhil Agnihotri</h6>
+					<div class="col-4 col-3 col-12-large">
+						
+					</div>
+					<div class="col-4 col-3 col-12-large">
+						<img class="rounded-circle profile" src="images/akhil.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Akhil Agnihotri</p>
 					</div>
 						
 				</div>
 			</div>
 		</section>
-
+ 
 		<!-- HMS -->
 		<article id="HMS" class="wrapper style2">
 			<div class="container">
-				<img src="images/wearable.jpg" alt=""/>
-				<p>Write project details here</p>
+				<header>
+					<h1>A Wearable Health Monitoring Device</h1>
+				</header>
+				<div class="row">
+					<div class="col-4 col-5-large col-12-medium">
+						<span class="image fit"><img src="images/Health monitoring system/onhand.jpeg" alt=""/></span>
+					</div>
+					<div class="col-8 col-7-large col-12-medium">
+						<p style="color:rgb(95, 95, 95);text-align:justify;">A wearable device to obtain the heart rate, blood pressure, body
+							temperature, oxygen level, and GPS location of the person. The data will be transmitted to a 2-3km far
+							local base station.</p>
+						<li style="color:rgb(95, 95, 95);text-align:justify;">Integrated and programmed the respective sensors using Arduino pro mini onto a wrist watch
+							sized wearable device and displayed the values on a TFT LCD screen attached to the device.</li>
+						<li style="color:rgb(95, 95, 95);text-align:justify;">Transmitted the data from the wearable device to a manpack module (Raspberry Pi) using
+							Bluetooth.</li>
+						<li style="color:rgb(95, 95, 95);text-align:justify;">Transmitted the data from the manpack module to a local base station using the LoRa module.</li>
+					</div>
+				</div>
+				<p></p>
+
+				<div class="row">
+					<div class="col-6 col-6-large col-12-medium">
+						<img src="images/Health monitoring system/blockdiag.jpeg" width="500" height="400" alt="">
+					</div>
+					<div class="col-6 col-6-large col-12-medium">
+						<img src="images/Health monitoring system/setup.jpeg" width="400" height="400" alt="">
+					</div>					
+				</div>
 			</div>
 		</article>
-		<h2> People </h2>
+		<h3> People </h3>
 		<section class="people project-people">
 			<div class="person person-with-image row align-items-center">
 				<div class="row">
-					<div class="col-6 col-3 col-12-large">
-						<img class="rounded-circle profile"	src="images/pratha.jpg" width="75" height="75" />
-						<h6 class="person-name">Prathamesh Saraf</h6>
+					<div class="col-4 col-3 col-12-large">
+						<img class="rounded-circle profile"	src="images/pratha.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Prathamesh Saraf</p>
 					</div>
-			
-					<div class="col-6 col-3 col-12-large">
-						<img class="rounded-circle profile" src="images/rohan.jpeg" width="75" height="75" />
-						<h6 class="person-name">Rohan Verma</h6>
+					<div class="col-4 col-3 col-12-large">
+
+					</div>
+					<div class="col-4 col-3 col-12-large">
+						<img class="rounded-circle profile" src="images/rohan.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Rohan Verma</p>
 					</div>
 							
-				</div>
+				</div>				
+				
 			</div>
 		</section>
-		
-		
-
+				
 		<!-- Hyperloop -->
 		<article id="Hyperloop" class="wrapper style1">
 			<div class="container">
-				<img src="images/hyper.jpg" alt=""/>
-				<p>Write project details here</p>
+				<header>
+					<h1>Electronics Subsystem Design, Hyperloop India</h1>
+				</header>
+				<span class="image fit"><img src="images/sys_arch_diagram.PNG" alt="" /></span>
+				<p style="color:rgb(95, 95, 95);text-align:justify;">The work aims at designing and building a pod prototype for the Hyperloop SpaceX competition. The
+					Hyperloop India team consists of Mechanical, CFD, Propulsion, Software and Electronics Subsystems.
+					As a member of Electronics subsystems, I:</p>
+				<li style="color:rgb(95, 95, 95);text-align:justify;">Worked on sensor integration for navigation, telemetry, and communication system used in the
+					prototype.</li>
+				<li style="color:rgb(95, 95, 95);text-align:justify;">Studied and designed the Linear Induction Motors for the propulsion of the pod.</li>
+				<li style="color:rgb(95, 95, 95);text-align:justify;">Worked on Battery Management System consisting of power distribution, fault detection and
+					prevention for the pod.</li>
+				<li style="color:rgb(95, 95, 95);text-align:justify;">Built the Active suspension (stability) system using PID controllers for the pod.</li>
+
+				<div class="row">					
+					<div class="col-6 col-6-large col-12-large">
+						<img src="images/FrontModule.jpg" width="500" height="500" alt="">
+					</div>
+					<div class="col-6 col-6-large col-12-large">
+						<img src="images/RearModule.jpg" width="500" height="500" alt="">
+					</div>	
+				</div>
 			</div>
 		</article>
-		<h2> Related Publications </h2>
+		<h3> Related Publications </h3>
 		<article>
 		<li style="color:rgb(95, 95, 95);text-align:justify;">
 			
 			“On-board Electrical, Electronics and Pose Estimation System for Hyperloop Pod Design”
 			<a href="https://ieeexplore.ieee.org/document/9463430" target="_blank">[Paper]</a>
 		</li>
-		<h2> People </h2>
+		<p></p>
+		<h3> People </h3>
 		<section class="people project-people">
 			<div class="person person-with-image row align-items-center">
 				<div class="row">
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile"	src="images/pratha.jpg" width="75" height="75" />
-						<h6 class="person-name">Prathamesh Saraf</h6>
+						<img class="rounded-circle profile"	src="images/pratha.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Prathamesh Saraf</p>
 					</div>
 					
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile" src="images/nihal.jpg" width="75" height="75" />
-						<h6 class="person-name">Nihal Singh</h6>
+						<img class="rounded-circle profile" src="images/nihal.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Nihal Singh</p>
 					</div>
 					
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile" src="images/plava.jpg" width="75" height="75" />
-						<h6 class="person-name">Plava Kattamuri</h6>
+						<img class="rounded-circle profile" src="images/plava.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Plava Kattamuri</p>
 					</div>
 					
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile" src="images/jay karhade.jpeg" width="75" height="75" />
-						<h6 class="person-name">Jay Karhade</h6>
+						<img class="rounded-circle profile" src="images/jay.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Jay Karhade</p>
 					</div>
 					
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile" src="images/ishika.jpeg" width="75" height="75" />
-						<h6 class="person-name">Ishika Bhattacharya</h6>
+						<img class="rounded-circle profile" src="images/ishika.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Ishika Bhattacharya</p>
 					</div>
 					
 					<div class="col-4 col-3 col-12-large">
-						<img class="rounded-circle profile" src="images/alivelu.jpeg" width="75" height="75" />
-						<h6 class="person-name">Prof. Alivelu Parimi</h6>
+						<img class="rounded-circle profile" src="images/alivelu.png" width="75" height="75" />
+						<p style="color:rgb(95, 95, 95);" class="person-name">Prof. Alivelu Parimi</p>
 					</div>
 				</div>
 			</div>
