@@ -1835,12 +1835,20 @@ input, select, textarea {
 					background-color: #006599;
 				}
 
+				ul.social li a.fa-researchgate {
+					background-color: #59f8bb;
+				}
+
+				ul.social li a.fa-envelope{
+					background-color: #ff3535;
+				}
+
 				ul.social li a.fa-tumblr {
 					background-color: #51718A;
 				}
 
-				ul.social li a.fa-google-plus {
-					background-color: #DA2713;
+				ul.social li a.ai-google-scholar-square {
+					background-color: #006599;
 				}
 
 				ul.social li a.fa-github {
@@ -1852,7 +1860,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-instagram {
-					background-color: #E0D7C8;
+					background-color: #db60f3;
 				}
 
 				ul.social li a.fa-foursquare {
