@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 		<link rel="shortcut icon" type="image/x-icon" href="images/logo.png"/>
-		
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 	</head>
 	<body class="is-preload">
 
@@ -20,7 +20,7 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About Me</a></li>
+					<li><a href="/about.html">About Me</a></li>
 					<li><a href="#work">Work</a></li>
 					<li><a href="#publications">Publications</a></li>
 					<li><a href="#contact">Connect</a></li>
@@ -40,40 +40,50 @@
 								<li><a href="https://www.researchgate.net/profile/Prathamesh-Saraf" class="icon brands fa-researchgate"></a></li>
 								<li><a href="https://www.linkedin.com/in/prathamesh-saraf/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
+							
 						</div>
 						<div class="col-8 col-7-small col-12-medium">
 							<header>
 								<h1><strong style="color:rgb(61, 61, 61);">Prathamesh Saraf</strong></h1>
 								<p style="color:rgb(95, 95, 95);">I'm an aspiring robotics researcher with focus on control theory & applications.</p>
 							</header>
-							
+							<div class="carousel"
+							  data-flickity='{ "groupCells": true, "autoPlay": true}'>
+							  <div class="carousel-cell">
+								<img class="w3-image" src="images/IISc.jpg" width="250" height="200" alt=""/>
+							  </div>
+							  <div class="carousel-cell">
+								<img class="w3-image" src="images/NUS.png" width="250" height="200" alt=""/>
+							  </div>
+							  <div class="carousel-cell">
+								<img class="w3-image" src="images/vinnan.png" width="250" height="200" alt=""/>
+							  </div>
+							  <div class="carousel-cell">
+								<img class="w3-image" src="images/Spot.jpg" width="250" height="200" alt=""/>
+							  </div>
+							  <div class="carousel-cell">
+								<img class="w3-image" src="images/robotarm.jpg" width="250" height="200" alt=""/>
+							  </div>
+							  <div class="carousel-cell">
+								<img class="w3-image" src="images/quadrotor.jpg" width="250" height="200" alt=""/>
+							  </div>
+							  <div class="carousel-cell">
+								<img class="w3-image" src="images/av.jpg" width="250" height="200" alt=""/>
+							  </div>
+							  <div class="carousel-cell">
+								<img class="w3-image" src="images/wearable.jpg" width="250" height="200" alt=""/>
+							  </div>
+							  <div class="carousel-cell">
+								<img class="w3-image" src="images/hyperloop.png" width="250" height="200" alt=""/>
+							  </div>
+							</div>
 						</div>
 					</div>
+					
 				</div>
 			</article>
 		
-		<!-- About Me -->
-		<article id="about" class="wrapper style3">
-			<div class="container">
-				<header>
-					<h2>About Me</h2>
-				</header>
-				<div class="row">
-					<div class="col-3 col-3-small col-12-small">
-						<span class="image featured"><a href="https://www.neofigurati.com/"><img src="images/prathamesh.jpg" alt=""/></a></span>
-					</div>
-					<div class="col-9 col-3-small col-12-small">
-				<p style="color:rgb(95, 95, 95); text-align:justify;">I am a passionate researcher aspiring to contribute to the field of Robotics and Control Systems. Recently graduated from <a style="text-decoration:none" href="https://universe.bits-pilani.ac.in/hyderabad/EEE/Home">Birla Institute of Technology & Science (BITS) Pilani</a>, I have my major in Electronics & Instrumentation and a minor in Robotics & Automation. 
-					I work as a Research Assistant under <a style="text-decoration:none" href="https://shishirny.github.io/">Prof. Shishir Kolathaya</a> in <a style="text-decoration:none" href="https://stochlab.github.io/">Stoch Lab</a>, <a style="text-decoration:none" href="https://iisc.ac.in/">Indian Institute of Science</a>, Bangalore; I have been working on research and development of the well-known quadruped robot, Stoch. 
-					Prior to this, I was fortunate enough to work with <a style="text-decoration:none" href="https://www.eng.nus.edu.sg/me/staff/guillaume-a-sartoretti/">Prof. Guillaume Sartoretti</a> at the <a style="text-decoration:none" href="https://www.marmotlab.org/">National University of Singapore</a> on torque-based control of the hexapod robot <a style="text-decoration:none" href="https://www.hebirobotics.com/kit-gallery/o8qt2oculy8qm4edtspeuqg3k7s5tp">Daisy</a> by Hebi Robotics. </p>
-				<p style="color:rgb(95, 95, 95); text-align:justify;">In my undergraduate years, I had several opportunities to closely work with veterans in robotics and controls like <a style="text-decoration:none" href="https://universe.bits-pilani.ac.in/hyderabad/alivelu/profile">Prof. Alivelu Manga Parimi</a>, <a style="text-decoration:none" href="https://www.bits-pilani.ac.in/Hyderabad/ponnalagurn/Profile">Prof. R.N. Ponnalagu</a>, and <a style="text-decoration:none" href="https://www.bits-pilani.ac.in/hyderabad/arshadj/Profile">Prof. Arshad Javed</a>. Throughout the process, I  have deepened my understanding of dynamic modeling, system design and integration, optimal control algorithms, and reinforcement learning.
-				My ultimate goal is to make a difference through the work I do. By being an active member of the community, I wish to help it thrive and furbish further.</p>
-				<p style="color:rgb(95, 95, 95); text-align:justify;">In my leisure time, you will usually find me <a style="text-decoration:none" href="/Art.html">painting</a>. Apart from this, I enjoy traveling, trekking. Cooking turns out to be my stressbuster. </p>
-			</div>
-			</div>
-
-			</div>
-		</article>
+		
 
 		<!-- Work -->
 		<article id="work" class="wrapper style2">
@@ -316,6 +326,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 	</body>
 </html>
