@@ -43,9 +43,7 @@
 						<span class="image fit"><img src="images/AV/setup1.PNG" alt=""/></span>
 					</div>
 					<div class="col-8 col-7-large col-12-medium">
-						<p style="color:rgb(95, 95, 95);text-align:justify;">The project aims at building a level-2 autonomous vehicle which would take the lane markings from an
-							on-board camera and the nearby obstacles from 3 Ultrasonic sensors as input. The input image is
-							processed and a steering angle is obtained.</p>
+						<p style="color:rgb(95, 95, 95);text-align:justify;">Abstract: A convolutional neural network (CNN) approach is used to implement a level 2 autonomous vehicle by mapping pixels from the camera input to the steering commands. The network automatically learns the maximum variable features from the camera input, hence requires minimal human intervention. Given realistic frames as input, the driving policy trained on the dataset by NVIDIA and Udacity can adapt to real-world driving in a controlled environment. The CNN is tested on the CARLA open-source driving simulator. Details of a beta-testing platform are also presented, which consists of an ultrasonic sensor for obstacle detection and an RGBD camera for real-time position monitoring at 10Hz. RRT*-Connect algorithm is used for path planning. Arduino Mega and Raspberry Pi are used for motor control and processing respectively to output the steering angle, which is converted to angular velocity for steering.</p>
 						<li style="color:rgb(95, 95, 95);text-align:justify;">Designed and assembled the complete hardware setup.</li>
 						<li style="color:rgb(95, 95, 95);text-align:justify;">Programmed the obstacle detection and avoidance algorithm using the steering angle and the
 							ultrasonic sensor input.</li>
