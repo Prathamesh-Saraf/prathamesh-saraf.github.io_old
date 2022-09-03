@@ -1,137 +1,276 @@
-<!DOCTYPE HTML>
-<!--
-	Miniport by HTML5 UP
-	html5up.net | Prathamesh Saraf
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	
-	<head>
-		<title>Prathamesh Saraf: Projects</title>
-		<meta charset="utf-8" />
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" href=href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"/>
-		<link rel="shortcut icon" type="image/x-icon" href="images/logo.png"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet"
-              
-			  integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-              crossorigin="anonymous">
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Prathamesh Saraf</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="owwwlab.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <meta name="description" content="Prathamesh Saraf UCSD BITS Pilani" />
+        <meta name="keywords" content="Prathamesh Saraf, UCSD, BITS Pilani" />
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="/index.html#home">Home</a></li>
-					<li><a href="/about.html">About Me</a></li>
-					<li><a href="/index.html#work">Work</a></li>
-					<li><a href="/index.html#publications">Publications</a></li>
-					<li><a href="/index.html#contact">Connect</a></li>
-				</ul>
-			</nav>
+        <link rel="shortcut icon" href="./images/ucsdprofilepic.jpeg">
 
-		<!-- AV -->
-		<article id="AV" class="wrapper style1">
-			<div class="container">
-				<header>
-					<h1>A CNN Approach Towards Self-driving Cars</h1>
-				</header>
-				<div class="row">
-					<div class="col-4 col-5-large col-12-medium">
-						<span class="image fit"><img src="images/AV/setup1.PNG" alt=""/></span>
-					</div>
-					<div class="col-8 col-7-large col-12-medium">
-						<p style="color:rgb(95, 95, 95);text-align:justify;">Abstract: A convolutional neural network (CNN) approach is used to implement a level 2 autonomous vehicle by mapping pixels from the camera input to the steering commands. The network automatically learns the maximum variable features from the camera input, hence requires minimal human intervention. Given realistic frames as input, the driving policy trained on the dataset by NVIDIA and Udacity can adapt to real-world driving in a controlled environment. The CNN is tested on the CARLA open-source driving simulator. Details of a beta-testing platform are also presented, which consists of an ultrasonic sensor for obstacle detection and an RGBD camera for real-time position monitoring at 10Hz. RRT*-Connect algorithm is used for path planning. Arduino Mega and Raspberry Pi are used for motor control and processing respectively to output the steering angle, which is converted to angular velocity for steering.</p>
+        <!--CSS styles-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">  
+        <link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link id="theme-style" rel="stylesheet" href="css/styles/blue.css">
+
+        
+        <!--/CSS styles-->
+        <!--Javascript files-->
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/TweenMax.min.js"></script>
+        <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+        <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+
+        
+        <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
+        <script type="text/javascript" src="js/jquery.dropdownit.js"></script>
+
+        <script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
+
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+        <script type="text/javascript" src="js/masonry.min.js"></script>
+
+        <script type="text/javascript" src="js/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+
+
+        <script type="text/javascript" src="js/magnific-popup.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+        <!--/Javascript files-->
+
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <a href="#sidebar" class="mobilemenu"><i class="fa fa-reorder"></i></a>
+            <div id="sidebar">
+                <div id="sidebar-wrapper">
+                    <div id="sidebar-inner">
+                        <!-- Profile/logo section-->
+                        <div id="profile" class="clearfix">
+                            <a href="index.html">
+                                <div class="portrait hidden-xs"></div>
+                                <div class="title">
+                                    <h3>Prathamesh Saraf</h3>
+                                    <!-- <h3>University of Southern California</h3> -->
+                            </a>
+                            <a title="UCSD" href="https://ucsd.edu/" target="_blank">
+                                <h5 style="color: #aaa"> MS in ECE (Intelligent Systems, Robotics, and Controls),</h5> 
+                                <h5 style="margin-top: -3%; color: #aaa;"> University of California San Diego </h5>
+                            </a>
+                        </div>   
+                    </div>
+                        <!-- /Profile/logo section-->
+
+                        <!-- Main navigation-->
+                        <div id="main-nav">
+                            <ul id="navigation">
+                                <li class="currentmenu">
+                                  <a href="index.html">
+                                    <i class="fa fa-user"></i>
+                                    <div class="text">About</div>
+                                  </a>
+                                </li>  
+                                
+                                <li>
+                                  <a href="research.html">
+                                    <i class="fa fa-edit"></i>
+                                    <div class="text">Work</div>
+                                  </a>
+                                </li> 
+                                
+                                <!-- <li>
+                                  <a href="publication.html">
+                                    <i class="fa fa-edit"></i>
+                                    <div class="text">Publications</div>
+                                  </a>
+                                </li>  -->
+
+
+                                <li>
+                                  <a href="life.html">
+                                    <i class='fa fa-heartbeat'></i>
+                                      <div class="text">Life</div>
+                                  </a>
+                                </li>
+
+
+                                <li>
+                                  <a href="contact.html">
+                                      <i class="fa fa-map-marker"></i>
+                                      <div class="text">Find Me</div>
+                                  </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                        <!-- Social media -->
+
+                        <div id="rcorners">
+                            <div class="grid-container">
+                                    <item><a title="Email" href="mailto:psaraf@ucsd.edu"><i class="fa fa-envelope"></i></a></item>
+                                    <item><a title="GitHub" href="https://github.com/Prathamesh-Saraf" target="_blank"><i class="fa fa-github""></i></a></item>
+                                    <item><a title="Google Scholar" href="https://scholar.google.com/citations?user=_dryk6EAAAAJ&hl=en" target="_blank"><i class="fa fa-graduation-cap" style="transform: scale(-1, 1);"></i></a></item>
+                                    <item><a title="LinkedIn" href="https://www.linkedin.com/in/prathamesh-saraf/" target="_blank"><i class="fa fa-linkedin"></i></a></item>
+                                    <item><a title="Facebook" href="https://www.facebook.com/profile.php?id=100006802470222" target="_blank"><i class="fa fa-facebook-official"></i></a></item>
+                                    <item><a title="Instagram" href="https://www.instagram.com/prathamesh.saraf/" target="_blank"><i class="fa fa-instagram"></i></a></item>
+                                    <item></item>
+                                    <!-- <item>
+                                        <a title="Resume" href="https://drive.google.com/file/d/1wxloraTS4kUvf7WtTnpk8pEpm3jT1Eux/view?usp=sharing" target="_blank"><i class="fa fa-file"></i></a>                                  
+                                    </item> -->
+                                    <item>
+                                        <a title="Resume" href="https://drive.google.com/file/d/1D-4ANRKKPW9bSC9HnnjGI08Irxtf14B3/view?usp=sharing" target="_blank">
+                                            <span class="fa-stack fa-1x">
+                                                <i class="fa fa-file fa-stack-1x"></i>
+                                                  <span class="fa fa-stack-1x" style="color:rgb(0, 0, 0);">
+                                                      <span style="font-size:11px; margin-top:0px; font-weight: bold;">
+                                                          CV
+                                                      </span>
+                                                </span>
+                                            </span>	
+                                    
+                                        </a>
+                                    </item>
+                                    <item></item>
+                            </div>
+                        </div>
+
+                        <!-- /Main navigation-->
+                        <!-- Sidebar footer -->
+                        <div id="sidebar-footer">
+                            <div class="lastupdate">Last Updated: September 2022</div>
+                            <!-- <div class="social-icons">
+                                <ul>
+                                    <li><a href="https://github.com/agnihotriakhil"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="https://scholar.google.com/citations?user=Kf1o27gAAAAJ&hl=en"><i class="fa fa-google"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/akhil-agnihotri-549690137/"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/akhil.agnihotri.35"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/longstory_short_/"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div> -->
+                            <!-- <div id="copyright">
+                                <i class="fa fa-copyright">Akhil Agnihotri</i>
+                            </div> -->
+                    
+                        </div>
+                        <!-- /Sidebar footer -->
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="main">
+            
+                <div id="research" class="page">
+                    <div class="pageheader">
+
+                        <div class="headercontent">
+
+                            <div class="section-container">
+                                <h3 class="title" >A Convolutional Neural Network Approach Towards Self-driving Cars</h3>
+                            
+                                <div class="row" style="margin: 0px 0px 0px 10px;">
+                                    <div class="col-md">
+                        <img src="images/Videos/AV.gif"  alt="" style="vertical-align:middle;margin:0px 200px"/>                
+                        <p>This work contains the details of the developed CNN, design of the robot and an experiment proposal to test the autonomy of the robot in a controlled real environment. The autonomous vehicle developed in this project is expected to satisfy the following objectives:</p>
+
+						<li>To track the lane markings on the road, determine the steering angle and move within the lane accordingly.</li>
+						<li>To have the capacity to detect obstacles along with the speed of obstacle in its path based on a predetermined threshold distance.</li>
+						<li>After obstacle and speed detection, changing its course to a relatively open lane on the road by making a decision autonomously.</li>
+						<li>Plan its path and move accordingly, thus, requiring no human intervention during its operation.</li>
 						
-					</div>
-				</div>
-				<p></p>
-				<div class="row">					
-					<div class="col-6 col-6-large col-12-large">
-						<p style="color:rgb(95, 95, 95);text-align:justify;">This work contains the details of the developed CNN, design of the robot and an experiment proposal to test the autonomy of the robot in a controlled real environment. The autonomous vehicle developed in this project is expected to satisfy the following objectives:</p>
-
-						<li style="color:rgb(95, 95, 95);text-align:justify;">To track the lane markings on the road, determine the steering angle and move within the lane accordingly.</li>
-
-						<li style="color:rgb(95, 95, 95);text-align:justify;">To have the capacity to detect obstacles along with the speed of obstacle in its path based on a predetermined threshold distance.</li>
-
-						<li style="color:rgb(95, 95, 95);text-align:justify;">After obstacle and speed detection, changing its course to a relatively open lane on the road by making a decision autonomously.</li>
-
-						<li style="color:rgb(95, 95, 95);text-align:justify;">Plan its path and move accordingly, thus, requiring no human intervention during its operation.</li>
 						
-						<span class="image fit"><img src="images/Videos/AV.gif"  alt=""/></span>
-					</div>
-					
-					<div class="col-6 col-6-large col-12-large">
-						<span class="image fit"><img src="images/AV/Capture.PNG" alt=""/></span>
-					</div>	
-				</div>
-			</div>
-			<h1></h1>
-			<ul class="social">
-				<li><a style="text-decoration:none;text-align:center;" href="https://www.youtube.com/watch?v=0UeVfhH5yBQ" class="fa fa-play-circle"><span class="label"></span></a></li>
-				<li><a style="text-decoration:none;text-align:center;" href="https://drive.google.com/file/d/1J7cLn5dG-BPsOAGXm9uXxXyjSvlMSnJI/view" class="fa fa-certificate "><span class="label"></span></a></li>
-				<li><a style="text-decoration:none;text-align:center;" href="https://github.com/Prathamesh-Saraf/Autonomous-Vehicles" class="icon brands fa-github"><span class="label"></span></a></li>
-			</ul>
-			<p></p>
-		
-		<h3 style="text-align:justify;"> Related Publications </h3>
-		<article>
-		<li style="color:rgb(95, 95, 95);text-align:justify;">
-			
-			“A Convolutional Neural Network Approach Towards Self-Driving Cars"
-			<a href="https://ieeexplore.ieee.org/document/9030307" target="_blank">[Paper]</a>
-		</li>
-		<p></p>
-		<h3 style="text-align:justify;"> People </h3>
-		<div class="people project-people">
-			<div class="person person-with-image row align-items-center">
-				<div class="row">
-					<div class="col-4 col-3 col-12-large">
-						<a href="/index.html"><img class="rounded-circle profile"	src="images/pratha.png" width="75" height="75" /></a>
-						<p style="color:rgb(95, 95, 95);" class="person-name">Prathamesh Saraf</p>
-					</div>
-					<div class="col-4 col-3 col-12-large">
-						
-					</div>
-					<div class="col-4 col-3 col-12-large">
-						<a href="https://agnihotriakhil.github.io/"><img class="rounded-circle profile" src="images/akhil.png" width="75" height="75" /></a>
-						<p style="color:rgb(95, 95, 95);" class="person-name">Akhil Agnihotri</p>
-					</div>
-						
-				</div>
-			</div>
-		</article>
-		</div>
-		<hr>
-				<a style="text-decoration:none;text-align:center;color: black;"><strong>Other Projects: </strong></a>
-				<a style="text-decoration:none;text-align:center;color:rgb(95, 95, 95);" href="/Spot.html">Quadruped Control</a>
-				<a style="text-decoration:none;text-align:center;color:rgb(95, 95, 95);">|</a>
-				<a style="text-decoration:none;text-align:center;color:rgb(95, 95, 95);" href="/Manipulator.html">Manipulator Control</a>
-				<a style="text-decoration:none;text-align:center;color:rgb(95, 95, 95);">|</a>
-				<a style="text-decoration:none;text-align:center;color:rgb(95, 95, 95);" href="/Quadrotor.html">Quadrotor Control</a>
-				<a style="text-decoration:none;text-align:center;color:rgb(95, 95, 95);">|</a>
-				<a style="text-decoration:none;text-align:center;color:rgb(95, 95, 95);" href="/AV.html">Autonomous Vehicles</a>
-				<a style="text-decoration:none;text-align:center;color:rgb(95, 95, 95);">|</a>
-				<a style="text-decoration:none;text-align:center;color:rgb(95, 95, 95);" href="/HMS.html">Health Monitoring Device</a>
-				<a style="text-decoration:none;text-align:center;color:rgb(95, 95, 95);">|</a>
-				<a style="text-decoration:none;text-align:center;color:rgb(95, 95, 95);" href="/Hyperloop.html">Hyperloop</a>
-				<hr>
-		<footer>
-			<ul id="copyright">
-				<li>&copy; 2021 Prathamesh Saraf. All rights reserved.</li>			
-			</ul>
-		</footer>
-	</article>	
-		
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                        
+                        <h2>System Architecture</h2>
+                        
+                        <img src="images/AV/setup1.PNG" alt="" width="450" height="350" style="vertical-align:left;margin:0px 0px"/>                   
+                        <p>The system is built using the following:</p>
 
-	</body>
+                        <li>Circular metal chassis of diameter 25cm.</li>
+
+                        <li>Two Stepper motors (Nema 17) for the wheels.</li>
+
+                        <li>Two Servo motors attached to the stepper motors to give the steering angle to the vehicle.</li>
+
+                        <li>Ultrasonic sensor HC-SR04 for obstacles detection.</li>
+
+                        <li>Web camera for image capturing of lanes on the road and Raspberry-pi 3B for image processing of the images captured and getting the steering angle.</li>
+                        
+                        <img src="images/AV/kernel.gif" alt="" width="300" height="400" style="vertical-align:right;margin:0px 500px"/>
+
+                        <p>The developed CNN architecture consists of four convolution layers and two fully-connected vanilla layers, each having a different bias, weight and Rectified Linear Unit (ReLU) associated with it. Initially, independent and identically distributed (i.i.d.) weights and bias of 0.1 are assigned. 
+                            The first three layers are padded with 5x5 kernels with a stride of 2 while the next layer has 3x3 kernels with a stride of 1. 
+                            These layers are followed by two fully-connected layers which are non-stridden to prevent overfitting on the training data, which is segmented into batches of size 100 and trained for 30 epochs on the CNN. 
+                            These fully connected layers also serve as a controller for the steering, thus eliminating the use of an explicitly defined controller, normally a Constrained Linear Quadratic Regulation (LQR) controller. The detailed CNN structure is given below:</p>
+                            
+                            <h2>Results</h2>
+                            <img src="images/AV/graphs.gif"  alt="" style="vertical-align:middle;margin:0px 150px"/>
+                        <p>
+                            The CNN was trained as described above and tested on a dataset provided by the University of Cambridge to give a sub-par performance since the weather conditions of the two datasets are different. 
+                            The model was trained on two datasets from Udacity and NVIDIA. 
+                            The Udacity dataset consisted of 6.6 Gigabytes of 33,478 images while the NVIDIA dataset had 2.1 Gigabytes of 7,064 images. 
+                            As seen in Fig. 6, there is a stark difference in the validation Mean Square Error (MSE) loss of the model after 30 epochs in both the instances visualized with the help of TensorFlow. 
+                            Udacity dataset gave a loss of 0.0003798 after 30 epochs while NVIDIA dataset gave a loss of 1.013 which was approximately 5 times smaller than the Udacity dataset.
+                        </p>
+                        <h2>Conclusion</h2>
+                        <p>This paper describes a methodology of implementing a level-2 autonomous vehicle in a relatively sparsely occupied environment. 
+                        A CNN is trained on a dataset by Udacity and used to compute the optimal steering angle based on the image input through the camera. 
+                        In case of obstruction in the path, three ultrasonic sensors are used to decide in which direction the vehicle should turn to continue on its path. 
+                        Once this is achieved, the vehicle resumes its normal functioning of manoeuvring based on the steering angle given by the CNN.
+                        </p>
+                        <p>
+                        Based on the above results, an experiment is being designed for on-road testing on the intra-campus roads of BITS Pilani Hyderabad Campus. 
+                        The test-path is 580 meters in length with negligible elevation gradient since the dataset was also created on a plane terrain. 
+                        The path will be marked with three parallel lanes of width 1 meter of Snowcal powder. 
+                        The GPS module GSM SIM908 will be used for location and path-tracking of the vehicle.
+                        </p>
+                        <img src="images/AV/carla.gif" alt="" style="vertical-align:middle;margin:0px 200px"/>
+                        <img src="images/AV/Capture.PNG" alt="" style="vertical-align:middle;margin:0px 0px"/>
+                                    </div>
+                                    <h2> Related Publications </h2>
+                                    <article>
+                                    <li>
+                                        
+                                        “A Convolutional Neural Network Approach Towards Self-Driving Cars"
+                                        <a href="https://ieeexplore.ieee.org/document/9030307" target="_blank">[Paper]</a>
+                                    </li>
+                                    <p></p>
+                                    <h2> People </h2>
+                                    <div class="people project-people">
+                                        <div class="person person-with-image row align-items-center">
+                                            <div class="row">
+                                                <div>
+                                                    <a href="/index.html"><img class="rounded-circle profile"	src="images/pratha.png" width="75" height="75" /></a>
+                                                    <p class="person-name">Prathamesh Saraf</p>
+                                                </div>
+                                                
+                                                <div>
+                                                    <a href="https://agnihotriakhil.github.io/"><img class="rounded-circle profile" src="images/akhil.png" width="75" height="75" /></a>
+                                                    <p class="person-name">Akhil Agnihotri</p>
+                                                </div>
+                                                    
+                                            </div>
+                                        </div>
+                                    </article>           
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
+
